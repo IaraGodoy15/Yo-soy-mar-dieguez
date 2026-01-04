@@ -6,51 +6,18 @@
 }
 
 body {
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
-    background-color: #f3f1ed;
+    background-color: #e4ded4;
 }
 
 /* ENCABEZADO */
 header {
     background-color: #dfd5bfc4;
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
     padding: 15px 25px;
     gap: 15px;
-}
-
-.logo {
-    width: 100px;
-    display: block;
-}
-
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    align-items: center;
-    list-style: none;
-    gap: 40px;
-    font-size: 16px;
-    padding: 0;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #524203;
-    position: relative;
-    font-family: 'Dancing Script';
-    font-weight: 800;
-}
-
-nav a:hover{
-    color: white;
 }
 
 .register-btn{
@@ -83,11 +50,6 @@ nav a:hover{
         width: 110px;
     }
 
-    .nav-links {
-        gap: 30px; 
-        font-size: 18px;
-    }
-
     .register-btn {
         padding: 10px 20px;
         font-size: 16px;
@@ -104,15 +66,6 @@ nav a:hover{
         width: 120px;
     }
 
-    .nav-links {
-        gap: 80px; 
-        font-size: 20px;
-    }
-
-    nav a:hover {
-        color: white;
-    }
-
     .register-btn:hover {
         color: #f8f8f8;
         background-color: #5f4a3d;
@@ -122,7 +75,7 @@ nav a:hover{
 
 /* MAIN */
 .separador{
-    width: 900px;
+    width: 50%;
     margin: auto;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -160,7 +113,6 @@ nav a:hover{
 .titulo{
     font-size: 50px;
     font-weight: 600;
-    letter-spacing: 18px;
     color: #4b2e07;
     text-shadow: 3px 3px 6px #f5f5f5;
     font-family: 'cinzel';
@@ -279,7 +231,7 @@ button:hover .button-text {
 
     .titulo {
         font-size: 40px;
-        letter-spacing: 10px;
+        letter-spacing: 0px;
     }
 
     .subtitulo {

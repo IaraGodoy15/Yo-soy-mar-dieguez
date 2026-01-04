@@ -24,22 +24,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 <!-- CSS --> 
     <link rel="stylesheet" href="../style/estilo.css">
+<!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <!-- MENÚ -->
 <body>
-    <header>
-        <a href="../index.html"><img src="../imagenes/logo.01.png" class="logo" alt=""></a>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/formaciones_anuales.html">Formaciones Anuales</a></li>
-                <li><a href="../pages/talleres_y_cursos.html">Talleres y cursos</a></li>
-                <li><a href="../pages/canal_de_whatsapp.html">Canal de Whatsapp</a></li>
-                <li><a href="#">Testimonios</a></li>
-            </ul>
-        </nav>
+<nav class="navbar navbar-expand-lg" style="background-color: #f5f5dc;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logo.01.png" alt="logo" width="120px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../pages/formaciones_anuales.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Formaciones Anuales
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../pages/formaciones_anuales.html">Formación Anual en Astrología</a></li>
+            <li><a class="dropdown-item" href="../pages/formaciones_anuales.html">Formación Anual en Biodecodificación</a></li>
+            <li><a class="dropdown-item" href="../pages/formaciones_anuales.html">Curso Anual Metafísica e Iniciación a la vida Espiritual</a></li>
+            <li><a class="dropdown-item" href="../pages/formaciones_anuales.html">Formación Anual en Lectura e Interpretación Terapéutica del Tarot</a></li>
+            <li><a class="dropdown-item" href="../pages/formaciones_anuales.html">Formación Anual de Terapeutas Holísticos/as</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../pages/talleres_y_cursos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Talleres y cursos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../pages/talleres_y_cursos.html">Formación Trimestral en Registros Akáshicos</a></li>
+            <li><a class="dropdown-item" href="../pages/talleres_y_cursos.html">Taller: Sanación de Linajes Materno y Paterno</a></li>
+            <li><a class="dropdown-item" href="../pages/talleres_y_cursos.html">Taller: Angeología</a></li>
+            <li><a class="dropdown-item" href="../pages/talleres_y_cursos.html">Taller: Vidas Pasadas</a></li>
+            <li><a class="dropdown-item" href="../pages/talleres_y_cursos.html">Taller: Vision Board y Manifestación</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../pages/canal_de_whatsapp.html">Canal de Whatsapp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Testimonios</a>
+        </li>
+      </ul>
         <a href="../pages/iniciar_sesion.html" class="register-btn"><ion-icon name="person-outline"></ion-icon>Iniciar sesión</a>
-    </header>
+    </div>
+  </div>
+</nav>   
 <!-- TESTIMONIOS -->
      <div class="section_container">
         <div class="header">
@@ -149,5 +183,6 @@
     </footer>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
